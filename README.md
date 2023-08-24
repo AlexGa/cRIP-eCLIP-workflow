@@ -33,7 +33,7 @@ Nora Schmidt, Sabina Ganskih, Yuanjie Wei, Alexander Gabel, Sebastian Zielinski,
 
 ## Recommended requirements
 
-It is recommended to install [conda] (https://conda.io/projects/conda/en/latest/user-guide/install/index.html) and using conda it is an easy task to install [snakemake] (https://snakemake.github.io/).
+It is recommended to install [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) and using conda it is an easy task to install [snakemake](https://snakemake.github.io/).
 
 All tools needed for the analysis are installed during the run of Snakemake while all specifications for the different analysis are written in separate yaml environment files.
 
