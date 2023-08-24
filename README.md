@@ -43,11 +43,11 @@ Please define the following directory structure so that the snakemake workflow i
 
 ```bash
 ├── config
-││   ├── cluster.json
-││   ├── config.yaml
-││   ├── peak_comparisons.tsv
-││   ├── sample_comparisons.yaml
-││   └── units.tsv
+│   ├── cluster.json
+│   ├── config.yaml
+│   ├── peak_comparisons.tsv
+│   ├── sample_comparisons.yaml
+│   └── units.tsv
 ├── data
 ├── crip-eclip-workflow
 ├── Log_Err
