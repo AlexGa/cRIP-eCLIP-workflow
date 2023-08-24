@@ -12,13 +12,13 @@ By adjusting the parameters of this workflow it can be used to identify RBP regi
 - normalization of read coverages to vizualize the enrichment of IP over SMI
 
 
-## Current publication using this workflow:
+## Current publication using this workflow
 
 ### SND1 binds SARS-CoV-2 negative-sense RNA and promotes viral RNA synthesis through NSP9
 
 Nora Schmidt, Sabina Ganskih, Yuanjie Wei, Alexander Gabel, Sebastian Zielinski, Hasmik Keshishian, Caleb A. Lareau, Liv Zimmermann, Jana Makroczyova, Cadence Pearce, Karsten Krey, Thomas Hennig, Sebastian Stegmaier, Lambert Moyon, Marc Horlacher,Simone Werner, Jens Aydin, Marco Olguin-Nava, Ramya Potabattula, Anuja Kibe, Lars Dölken, Redmond P. Smyth, Neva Caliskan, Annalisa Marsico, Christine Krempl, Jochen Bodem, Andreas Pichlmair, Steven A. Carr, Petr Chlanda, Florian Erhard, and Mathias Munschauer
 
-# Short workflow description
+## Short workflow description
 
 - UMI clipping and storing performed by DeBarCode.jar (see java directory)
 - adapter clipping and quality trimming with cutadapt
@@ -31,13 +31,13 @@ Nora Schmidt, Sabina Ganskih, Yuanjie Wei, Alexander Gabel, Sebastian Zielinski,
 - calculation of enriched cl-sites
 - normalization of mapped reads IP vs. SMI for better visualisation  
 
-# Recommended requirements
+## Recommended requirements
 
 It is recommended to install [conda] (https://conda.io/projects/conda/en/latest/user-guide/install/index.html) and using conda it is an easy task to install [snakemake] (https://snakemake.github.io/).
 
 All tools needed for the analysis are installed during the run of Snakemake while all specifications for the different analysis are written in separate yaml environment files.
 
-# Directory structure
+## Directory structure
 
 Please define the following directory structure so that the snakemake workflow is able to detect all necessary files.
 
