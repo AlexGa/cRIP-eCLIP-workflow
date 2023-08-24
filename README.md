@@ -12,13 +12,13 @@ By adjusting the parameters of this workflow it can be used to identify RBP regi
 - normalization of read coverages to vizualize the enrichment of IP over SMI
 
 
-Current publication using this workflow:
+## Current publication using this workflow:
 
-## SND1 binds SARS-CoV-2 negative-sense RNA and promotes viral RNA synthesis through NSP9
+### SND1 binds SARS-CoV-2 negative-sense RNA and promotes viral RNA synthesis through NSP9
 
 Nora Schmidt, Sabina Ganskih, Yuanjie Wei, Alexander Gabel, Sebastian Zielinski, Hasmik Keshishian, Caleb A. Lareau, Liv Zimmermann, Jana Makroczyova, Cadence Pearce, Karsten Krey, Thomas Hennig, Sebastian Stegmaier, Lambert Moyon, Marc Horlacher,Simone Werner, Jens Aydin, Marco Olguin-Nava, Ramya Potabattula, Anuja Kibe, Lars Dölken, Redmond P. Smyth, Neva Caliskan, Annalisa Marsico, Christine Krempl, Jochen Bodem, Andreas Pichlmair, Steven A. Carr, Petr Chlanda, Florian Erhard, and Mathias Munschauer
 
-# Short description
+# Short workflow description
 
 - UMI clipping and storing performed by DeBarCode.jar (see java directory)
 - adapter clipping and quality trimming with cutadapt
