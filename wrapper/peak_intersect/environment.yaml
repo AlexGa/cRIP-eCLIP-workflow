@@ -1,0 +1,6 @@
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - pathlib2
+  - bedtools==2.30

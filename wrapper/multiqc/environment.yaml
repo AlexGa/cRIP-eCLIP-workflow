@@ -1,0 +1,8 @@
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - multiqc = 1.13a
+  # work around API incompatibility of colormath dependency
+  - networkx >=2.5.1

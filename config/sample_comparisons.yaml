@@ -1,0 +1,42 @@
+bed-intersect:
+  query:
+    cRIP_rep1_NSP9_8h: "cRIP_rep1_NSP9_8h_CTRL2"
+    cRIP_rep1_NSP9_12h: "cRIP_rep1_NSP9_12h_CTRL2"
+    cRIP_rep2_NSP9_8h: "cRIP_rep2_NSP9_8h_CTRL2"
+    cRIP_rep2_NSP9_12h: "cRIP_rep2_NSP9_12h_CTRL2"
+  target:
+    cRIP_rep1_NSP9_8h:
+      - cRIP_rep1_NSP9_8h_KO6_plus_eV
+    cRIP_rep1_NSP9_12h:
+      - cRIP_rep1_NSP9_12h_KO6_plus_eV
+    cRIP_rep2_NSP9_8h:
+      - cRIP_rep2_NSP9_8h_KO6_plus_eV
+    cRIP_rep2_NSP9_12h:
+      - cRIP_rep2_NSP9_12h_KO6_plus_eV
+unit2sample:
+  cRIP_rep1_NSP9_8h_CTRL2: "cRIP_rep1_NSP9_8h"
+  cRIP_rep1_NSP9_8h_KO6_plus_eV: "cRIP_rep1_NSP9_8h"
+  cRIP_rep1_NSP9_12h_CTRL2: "cRIP_rep1_NSP9_12h"
+  cRIP_rep1_NSP9_12h_KO6_plus_eV: "cRIP_rep1_NSP9_12h"
+  cRIP_rep2_NSP9_8h_CTRL2: "cRIP_rep2_NSP9_8h"
+  cRIP_rep2_NSP9_8h_KO6_plus_eV: "cRIP_rep2_NSP9_8h"
+  cRIP_rep2_NSP9_12h_CTRL2: "cRIP_rep2_NSP9_12h"
+  cRIP_rep2_NSP9_12h_KO6_plus_eV: "cRIP_rep2_NSP9_12h"
+DBA:
+  cRIP_rep1_NSP9_8h:
+    ctrl: "cRIP_rep1_NSP9_8h_CTRL2"
+    ko: "cRIP_rep1_NSP9_8h_KO6_plus_eV"
+    bed: "cRIP_rep1_NSP9_8h"
+  cRIP_rep1_NSP9_12h:
+    ctrl: "cRIP_rep1_NSP9_12h_CTRL2"
+    ko: "cRIP_rep1_NSP9_12h_KO6_plus_eV"
+    bed: "cRIP_rep1_NSP9_12h"
+  cRIP_rep2_NSP9_8h:
+    ctrl: "cRIP_rep2_NSP9_8h_CTRL2"
+    ko: "cRIP_rep2_NSP9_8h_KO6_plus_eV"
+    bed: "cRIP_rep2_NSP9_8h"
+  cRIP_rep2_NSP9_12h:
+    ctrl: "cRIP_rep2_NSP9_12h_CTRL2"
+    ko: "cRIP_rep2_NSP9_12h_KO6_plus_eV"
+    bed: "cRIP_rep2_NSP9_12h"
+

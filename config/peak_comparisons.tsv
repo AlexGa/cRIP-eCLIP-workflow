@@ -1,0 +1,15 @@
+unit	ip	sm
+cRIP_rep1_NSP9_12h_CTRL2	IP	SM
+cRIP_rep1_NSP9_12h_KO6_plus_eV	IP	SM
+cRIP_rep1_NSP9_8h_CTRL2	IP	SM
+cRIP_rep1_NSP9_8h_KO6_plus_eV	IP	SM
+cRIP_rep2_NSP9_8h_CTRL2	IP	SM
+cRIP_rep2_NSP9_8h_KO6_plus_eV	IP	SM
+cRIP_rep2_NSP9_12h_CTRL2	IP	SM
+cRIP_rep2_NSP9_12h_KO6_plus_eV	IP	SM
+cRIP_N_rep1	IP	SM
+cRIP_N_rep2	IP	SM
+eCLIP_N_rep1	IP	SM
+eCLIP_N_rep2	IP	SM
+eCLIP_cnbp	IP	SM
+eCLIP_snd1_huh7	IP	SM

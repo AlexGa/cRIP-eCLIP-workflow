@@ -1,0 +1,10 @@
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - numpy
+  - pysam
+  - pandas
+  - scipy
+  - statsmodels
+  - pyBigWig

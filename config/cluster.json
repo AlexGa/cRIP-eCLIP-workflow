@@ -1,0 +1,87 @@
+{  
+  "__default__": {
+  "job-name": "{rule}",
+  "chdir": "./",
+  "output": "Log_Out/{rule}.o.%j",
+  "error": "Log_Err/{rule}.e.%j",
+  "cpus-per-task": "{threads}",
+  "partition": "cpu",
+  "mem": "10G",
+  "time": "01:30:00"
+  },
+  "clipTrim": {
+    "time": "01:00:00",
+    "mem": "4G"
+  },
+  "cutadapt_pe_round1": {
+    "time": "02:00:00",
+    "mem": "8G"
+  },  
+  "cutadapt_pe_round2": {
+    "time": "02:00:00",
+    "mem": "8G"
+  },
+  "star_index_fasta": {
+    "time": "12:00:00",
+    "mem": "350G"
+  },
+  "star_index_gtf": {
+    "time": "12:00:00",
+    "mem": "350G"
+  },
+  "star_pe_multi": {
+    "time": "08:00:00",
+    "mem": "120G"
+  },
+  "reanno": {
+    "time": "03:00:00",
+    "mem": "{resources.mem_mb}M"
+  },
+  "mark_duplicates": {
+    "time": "12:00:00",
+    "mem": "{resources.mem_mb}M"
+  },
+  "split_by_strand": {
+    "time": "12:00:00"
+  },
+  "extract_subgenome":{
+    "time": "04:00:00"
+  },
+  "samtools_view": {
+    "time": "01:00:00",
+    "mem": "20G"
+  },
+  "callpeak": {
+    "time": "12:00:00",
+    "mem": "110G"
+  },
+  "peakCoverage": {
+    "time": "02:00:00",
+    "mem": "21G"
+  },
+  "peakCoverage_DBA": {
+    "time": "02:00:00",
+    "mem": "21G"
+  },
+  "confirm_peaks_single": {
+    "time": "2:00:00",
+    "mem": "22G"
+  },
+  "confirm_peaks_DBA": {
+    "time": "2:00:00",
+    "mem": "22G"
+  },
+  "pureclip": {
+    "time": "36:00:00",
+    "mem": "200G"
+  },
+  "pileup_xlsites": {
+    "mem": "62G"
+  },
+  "pileup_xlsites_single": {
+    "mem": "62G"
+  },
+  "pileup_xlsites_DBA": {
+    "mem": "62G"
+  }
+}
