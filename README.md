@@ -1,6 +1,7 @@
-# Computational analysis of cRIP and eCLIP data for the publication
+# Analysis of cRIP and eCLIP data for the publication
 
 Nora Schmidt, Sabina Ganskih, Yuanjie Wei, Alexander Gabel, Sebastian Zielinski, Hasmik Keshishian, Caleb A. Lareau, Liv Zimmermann, Jana Makroczyova, Cadence Pearce, Karsten Krey, Thomas Hennig, Sebastian Stegmaier, Lambert Moyon, Marc Horlacher, Simone Werner, Jens Aydin, Marco Olguin-Nava, Ramya Potabattula, Anuja Kibe, Lars Dölken, Redmond P. Smyth, Neva Caliskan, Annalisa Marsico, Christine Krempl, Jochen Bodem, Andreas Pichlmair, Steven A. Carr, Petr Chlanda, Florian Erhard, and Mathias Munschauer. 
+
 **SND1 binds SARS-CoV-2 negative-sense RNA and promotes viral RNA synthesis through NSP9**.
 
 # cRIP and eCLIP workflow
