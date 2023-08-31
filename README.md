@@ -3,8 +3,9 @@
 ## General description
 
 This pipeline was used for analysing eCLIP and cRIP data to identify RNA binding regions in the Sars-Cov-2 genome. 
+It is based on the read preprocessing and mapping procedures presented in the [eCLIP pipeline](https://www.encodeproject.org/pipelines/ENCPL357ADL/) from [Gene Yeo's lab](https://github.com/YeoLab/eCLIP) while the downstream analysis such as peak calling, calculating differential binding affinities, analysing covalent linkage sites, and visualizing read coverages were specifically developed and implemented for the identification of RBP regions in viral genomes.
 
-By adjusting the parameters of this workflow it can be used to identify RBP regions in other genomes of interest. Beside basic analyses (clipping, trimming, and mapping of fastq reads), this workflow calculates:
+By adjusting the parameters of this workflow, it can be used to identify RBP regions in other genomes of interest (host and/or virus). Besides the basic analysis steps (e.g. clipping, trimming, and mapping of fastq reads), this workflow calculates:
 
 - the genomic location of RBP regions (peaks)
 - corresponding covalent linkage sites (cl-sites)
@@ -18,7 +19,7 @@ By adjusting the parameters of this workflow it can be used to identify RBP regi
 
 Nora Schmidt, Sabina Ganskih, Yuanjie Wei, Alexander Gabel, Sebastian Zielinski, Hasmik Keshishian, Caleb A. Lareau, Liv Zimmermann, Jana Makroczyova, Cadence Pearce, Karsten Krey, Thomas Hennig, Sebastian Stegmaier, Lambert Moyon, Marc Horlacher,Simone Werner, Jens Aydin, Marco Olguin-Nava, Ramya Potabattula, Anuja Kibe, Lars Dölken, Redmond P. Smyth, Neva Caliskan, Annalisa Marsico, Christine Krempl, Jochen Bodem, Andreas Pichlmair, Steven A. Carr, Petr Chlanda, Florian Erhard, and Mathias Munschauer
 
-## Short workflow description
+## Short description
 
 - UMI clipping and storing performed by DeBarCode.jar (see java directory)
 - adapter clipping and quality trimming with cutadapt
@@ -65,3 +66,7 @@ Please define the following directory structure so that the snakemake workflow i
 │        ├── homo_sapiens_sars_cov2
 └── Snakefile
 ```
+
+# Citation:
+
+Schmidt, Nora;  Ganskih, Sabina; Wei, Yuanjie; Gabel, Alexander; et al. (2023): SND1 binds SARS-CoV-2 negative-sense RNA and promotes viral RNA synthesis through NSP9
